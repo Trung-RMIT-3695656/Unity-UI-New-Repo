@@ -1142,6 +1142,16 @@ PrefabInstance:
       propertyPath: AchievementList.Array.data[4].NotificationFrequency
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 3586384449932917247, guid: 3a140b31cdd80204580276d4562e951e,
+        type: 3}
+      propertyPath: AchievementList.Array.data[1].Spoiler
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586384449932917247, guid: 3a140b31cdd80204580276d4562e951e,
+        type: 3}
+      propertyPath: AchievementList.Array.data[2].Spoiler
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3663687798500909157, guid: 3a140b31cdd80204580276d4562e951e,
         type: 3}
       propertyPath: m_AnchorMin.y

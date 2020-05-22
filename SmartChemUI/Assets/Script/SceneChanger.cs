@@ -5,17 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    public string sceneName;
     // Start is called before the first frame update
-    public void changeToSelectChapter()
+    public void Update()
     {
-        SceneManager.LoadScene("Scene Container/Select Chapter");
-    }
-    public void changeToRoadMap()
-    {
-        SceneManager.LoadScene("Scene Container/RoadMap(SelectChapter)");
-    }
-    public void changeToBattleUI()
-    {
-        SceneManager.LoadScene("Scene Container/Battle UI");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }
